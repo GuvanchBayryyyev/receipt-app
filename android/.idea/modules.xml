@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1200305070/@react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/1200305070/@react-native-community_datetimepicker.iml" group="bons_frontend/@react-native-community_datetimepicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="bons_frontend/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bons_frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/bons_frontend.iml" group="bons_frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2100343653/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/2100343653/react-native-community_async-storage.iml" group="bons_frontend/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1200305070/react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/1200305070/react-native-community_datetimepicker.iml" group="bons_frontend/react-native-community_datetimepicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-811477692/react-native-community_image-editor.iml" filepath="$PROJECT_DIR$/.idea/modules/-811477692/react-native-community_image-editor.iml" group="bons_frontend/react-native-community_image-editor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1601021858/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1601021858/react-native-community_masked-view.iml" group="bons_frontend/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2055601978/react-native-community_progress-bar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/2055601978/react-native-community_progress-bar-android.iml" group="bons_frontend/react-native-community_progress-bar-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-431986048/react-native-community_progress-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-431986048/react-native-community_progress-view.iml" group="bons_frontend/react-native-community_progress-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1537108541/react-native-extra-dimensions-android.iml" filepath="$PROJECT_DIR$/.idea/modules/1537108541/react-native-extra-dimensions-android.iml" group="bons_frontend/react-native-extra-dimensions-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1545012863/react-native-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-1545012863/react-native-fetch-blob.iml" group="bons_frontend/react-native-fetch-blob" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-775279746/react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/-775279746/react-native-fs.iml" group="bons_frontend/react-native-fs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2140442485/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/2140442485/react-native-gesture-handler.iml" group="bons_frontend/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1591285480/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1591285480/react-native-image-crop-picker.iml" group="bons_frontend/react-native-image-crop-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/280504241/react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/280504241/react-native-image-picker.iml" group="bons_frontend/react-native-image-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1866372157/react-native-image-to-pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/-1866372157/react-native-image-to-pdf.iml" group="bons_frontend/react-native-image-to-pdf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1534573689/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1534573689/react-native-linear-gradient.iml" group="bons_frontend/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-646884319/react-native-pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/-646884319/react-native-pdf.iml" group="bons_frontend/react-native-pdf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-660887885/react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-660887885/react-native-permissions.iml" group="bons_frontend/react-native-permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1189643897/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1189643897/react-native-reanimated.iml" group="bons_frontend/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/327261854/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/327261854/react-native-safe-area-context.iml" group="bons_frontend/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1268190262/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1268190262/react-native-screens.iml" group="bons_frontend/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1905771649/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1905771649/react-native-vector-icons.iml" group="bons_frontend/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1587084982/rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-1587084982/rn-fetch-blob.iml" group="bons_frontend/rn-fetch-blob" />
+    </modules>
+  </component>
+</project>

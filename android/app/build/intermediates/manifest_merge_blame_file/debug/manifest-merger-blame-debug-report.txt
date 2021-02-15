@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bons_frontend"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:5:5-64
+13-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:5:22-62
+14
+15    <uses-feature
+15-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:6:5-85
+16        android:name="android.hardware.camera"
+16-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:6:19-57
+17        android:required="false" />
+17-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:6:58-82
+18    <uses-feature
+18-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:7:5-91
+19        android:name="android.hardware.camera.front"
+19-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:7:19-63
+20        android:required="false" />
+20-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:7:64-88
+21
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+22-->[com.facebook.flipper:flipper:0.37.0] /Users/ppmmxx/.gradle/caches/transforms-2/files-2.1/15cacb4283a7a012221743aaad25fff1/jetified-flipper-0.37.0/AndroidManifest.xml:16:5-76
+22-->[com.facebook.flipper:flipper:0.37.0] /Users/ppmmxx/.gradle/caches/transforms-2/files-2.1/15cacb4283a7a012221743aaad25fff1/jetified-flipper-0.37.0/AndroidManifest.xml:16:22-73
+23    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+23-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+23-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+24    <!--
+25         Required to keep CPU alive while downloading files
+26        (NOT to keep screen awake)
+27    -->
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+28-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+29    <!--
+30         Required to poll the state of the network connection
+31        and respond to changes
+32    -->
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
+33-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+33-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+34-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-78
+35
+36    <application
+36-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:9:5-30:19
+37        android:name="com.bons_frontend.MainApplication"
+37-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:10:7-38
+38        android:allowBackup="false"
+38-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:14:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.3.1] /Users/ppmmxx/.gradle/caches/transforms-2/files-2.1/6a7dca6a896547acf5e0919cc2615a46/core-1.3.1/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:12:7-41
+42        android:label="@string/app_name"
+42-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:11:7-39
+43        android:largeHeap="true"
+43-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:17:7-31
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:13:7-52
+45        android:testOnly="true"
+46        android:theme="@style/AppTheme"
+46-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:15:7-38
+47        android:usesCleartextTraffic="true" >
+47-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:16:7-42
+48        <activity
+48-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:18:7-28:18
+49            android:name="com.bons_frontend.MainActivity"
+49-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:19:9-37
+50            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+50-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:21:9-86
+51            android:label="@string/app_name"
+51-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:20:9-41
+52            android:launchMode="singleTask"
+52-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:22:9-40
+53            android:windowSoftInputMode="adjustPan" >
+53-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:23:9-48
+54            <intent-filter>
+54-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:24:9-27:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:25:13-65
+55-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:25:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:26:13-73
+57-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:26:23-70
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+60-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:29:7-84
+60-->/Users/ppmmxx/Desktop/BONS-FRONTEND/android/app/src/main/AndroidManifest.xml:29:17-81
+61
+62        <provider
+62-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+63            android:name="com.RNFetchBlob.Utils.FileProvider"
+63-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+64            android:authorities="com.bons_frontend.provider"
+64-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+65            android:exported="false"
+65-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+66            android:grantUriPermissions="true" >
+66-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+67            <meta-data
+67-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+69                android:resource="@xml/provider_paths" />
+69-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+70        </provider>
+71        <provider
+71-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+72            android:name="androidx.core.content.FileProvider"
+72-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-62
+73            android:authorities="com.bons_frontend.provider"
+73-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-60
+74            android:exported="false"
+74-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+75            android:grantUriPermissions="true" >
+75-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-47
+76            <meta-data
+76-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+77                android:name="android.support.FILE_PROVIDER_PATHS"
+77-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+78                android:resource="@xml/provider_paths" />
+78-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+79        </provider>
+80
+81        <activity
+81-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-25:72
+82            android:name="com.yalantis.ucrop.UCropActivity"
+82-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-60
+83            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+83-->[:react-native-image-crop-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-69
+84
+85        <provider
+85-->[:react-native-image-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+86            android:name="com.imagepicker.ImagePickerProvider"
+86-->[:react-native-image-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+87            android:authorities="com.bons_frontend.imagepickerprovider"
+87-->[:react-native-image-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+88            android:exported="false"
+88-->[:react-native-image-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+89            android:grantUriPermissions="true" >
+89-->[:react-native-image-picker] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+90            <meta-data
+90-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+92                android:resource="@xml/imagepicker_provider_paths" />
+92-->[:rn-fetch-blob] /Users/ppmmxx/Desktop/BONS-FRONTEND/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+93        </provider>
+94    </application>
+95
+96</manifest>
